@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Express Application</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+</head>
+
+<body>
+    <h1>This is served by Express</h1>
+    <ul id="shopping_list"></ul>
+    <form class="pure-form pure-form-aligned" id="item_form">
+        <fieldset>
+
+
+            <label for="name">Name:</label>
+            <input required type="text" name="Price" id="name">
+            <div class="pure-control-group">
+                <label>
+                Amount:
+                    </label>
+                <input required type="text" name="Price" id="amount">
+            </div>
+            <div class="pure-control-group">
+
+                <label>
+                price:
+                    </label>
+                <input required type="text" name="Price" id="price">
+            </div>
+            <div class="pure-control">
+
+                <button id="submit_button" type="submit" class="pure-button pure-button-primary">Add Item</button>
+            </div>
+        </fieldset>
+    </form>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

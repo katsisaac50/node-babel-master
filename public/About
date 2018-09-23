@@ -1,0 +1,14 @@
+<html>
+
+<head>
+    <title>Express Application</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+</head>
+
+<body>
+    <h1>This is About page served by Express</h1>
+    
+
+</body>
+
+</html>
